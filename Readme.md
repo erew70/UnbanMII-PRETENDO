@@ -133,7 +133,7 @@ Structure:
             
                    /generate
                 
-          /people/ (Selecting Mii from your 3ds or stored on the server)
+          /people/
             
                 /@me/
                 
@@ -165,7 +165,7 @@ Structure:
             
                    /generate
                 
-          /people/ (Selecting Mii from your 3ds or stored on the server)
+          /people/
             
                 /@me/
                 
