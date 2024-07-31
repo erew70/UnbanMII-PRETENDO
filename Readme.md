@@ -180,7 +180,7 @@ Structure:
 ```
 
 # MISC:
-## Mii selecting
+## Mii selection screen (PNID Linking)
 
 NOTE: standard.tga is encrypted or something in some sorts so i cannot view it :(
 
