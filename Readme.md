@@ -98,8 +98,8 @@ Example Url: https://104.25.1.76/v1/api/admin/mapped_ids?input_type=user_id&outp
 
 ## Matchmaking: (Online Play)
 
-* https://104.25.1.76:443/ac//
 * https://104.25.2.76:443/ac//
+* https://104.25.1.76:443/ac//
 
 Structure:
 ```
