@@ -3,8 +3,8 @@
 you are blacklisted much differently on pretendo, if you ever tried using a different lfcs_b that doesnt match your 3ds on pretendo, you notice you will get an error. 
 
 # what is blacklisted on their end
-# Online Play: (Matchmaking)
-## Form (Easier for your eyes):
+## Online Play: (Matchmaking)
+### Form (Easier for your eyes):
 
 * bssid
 
@@ -27,8 +27,8 @@ POST REQUEST
 action=TE9HSU4%2A&apinfo=INSERTAPINFOHERE&bssid=INSERTBSSIDHERE&csnum=INSERTCSNUMHERE&devname=INSERTDEVNAMEHERE&devtime=INSERTDEVTIMEHERE&fcdcert=INSERTFCDCERTHERE&fpdver=INSERTFPDVERHERE&gamecd=INSERTGAMECDHERE&gameid=INSERTGAMEIDHERE&gamever=INSERTGAMEVERHERE&ingamesn=&lang=INSERTLANGHERE&macadr=INSERTMACADR&makercd=INSERTMAKERCDHERE&mediatype=INSERTMEDIATYPEHERE&region=INSERTREGIONHERE&sdkver=INSERTSDKVERHERE&servertype=INSERTSERVERTYPEHERE&titleid=INSERTTITLEIDHERE&uidhmac=INSERTUIDHMACHERE&unitcd=INSERTUNITCDHERE&userid=INSERTUSERIDHERE
 ```
 
-# Other stuff such as pnid linking and miiverse:
-## Form (easier for your eyes)
+## Other stuff such as pnid linking and miiverse:
+### Form (easier for your eyes)
 
 GET Request:
   * X-Nintendo-Device-Cert
@@ -43,7 +43,7 @@ GET Request:
 
   * X-Nintendo-Client-Secret
 
-# Body (what is sent to pretendo)
+## Body (what is sent to pretendo)
 
 Headers:
 
@@ -94,9 +94,9 @@ X-Nintendo-Device-Cert: INSERTDEVICECERTHERE
 Example Url: https://104.25.1.76/v1/api/admin/mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
 
 
-# Paths
+## Paths
 
-## Matchmaking: (Online Play)
+### Matchmaking: (Online Play)
 
 * https://104.25.2.76:443/ac//
 * https://104.25.1.76:443/ac//
