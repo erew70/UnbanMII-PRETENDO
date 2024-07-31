@@ -190,5 +190,9 @@ No error: Yay your donor info or generated info worked, you are now successfully
 
 # Notes
 If you dont care about pnid linking or miiverse and want to play online on your banned 3ds, ignore the X-Nintendo-Blah-Blah stuff as that is only needed for pnid linking and miiverse
+
+And yes the best way to generate unique info like this is inputting strings like those into ai and asking it to generate simillar ones to that or using scripts like python. There is no way to automate testing if its banned or not so your just gonna have to keep sifting through invalid and banned info till you get a working one.
+Also if your using a generated unique info that isnt banned i would like you to know that somewhere in the world, there is a person who has a 3ds and you just generated their info based off of yours. So if you get their info banned, then their 3ds will be banned also. Same goes if you rip info off of donor 3ds
+
 The only question i have from pretendo is how do you know if these are valid? Regex? otherwise you guys clearly have a list of all valid info stored on your servers.
 
