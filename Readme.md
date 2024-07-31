@@ -223,3 +223,12 @@ Lmao just rewrite everything using charles proxy and replace your values with th
 * Online play: FRD
 
 * PNID Linking: FRD, SSL, NIM, ACT, BOSS, CECD, DLP (HTTP causes issues so dont enable it)
+
+## SHIT I ACCIDENtLY lINKED NNID BEFORE PNID AND NOW I GET ERRORS WHEN LINKING PNID
+
+no worries just go to this path: INSERT_USER_FOLDER_HERE/nand/data/SYSID0/sysdata/00010038/
+
+once your in that path rename 00000000 to 10000000
+
+
+If you dont have a user folder in the same folder as your citra-qt.exe file, then your user folder should be here: C:\Users\YOUR_USER_HERE\AppData\Roaming\Citra
