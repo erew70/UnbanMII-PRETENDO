@@ -105,14 +105,14 @@ Structure:
 ```
 104.25.2.76:443
   /ac/
-      /
+      / <-- (this is actually part of the url endpoint its not a slash into a folder)
 ```
 
 Structure:
 ```
 104.25.1.76:443
   /ac/
-      /
+      / <-- (this is actually part of the url endpoint its not a slash into a folder)
 ```
 ## Other stuff such as pnid linking and miiverse:
 Structure:
