@@ -22,9 +22,10 @@ you are blacklisted much differently on pretendo, if you ever tried using a diff
 
 ## Body (this is what your 3ds sends to pretendo)
 
-
+POST REQUEST
+```
 action=TE9HSU4%2A&apinfo=INSERTAPINFOHERE&bssid=INSERTBSSIDHERE&csnum=INSERTCSNUMHERE&devname=INSERTDEVNAMEHERE&devtime=INSERTDEVTIMEHERE&fcdcert=INSERTFCDCERTHERE&fpdver=INSERTFPDVERHERE&gamecd=INSERTGAMECDHERE&gameid=INSERTGAMEIDHERE&gamever=INSERTGAMEVERHERE&ingamesn=&lang=INSERTLANGHERE&macadr=INSERTMACADR&makercd=INSERTMAKERCDHERE&mediatype=INSERTMEDIATYPEHERE&region=INSERTREGIONHERE&sdkver=INSERTSDKVERHERE&servertype=INSERTSERVERTYPEHERE&titleid=INSERTTITLEIDHERE&uidhmac=INSERTUIDHMACHERE&unitcd=INSERTUNITCDHERE&userid=INSERTUSERIDHERE
-
+```
 
 # Other stuff such as pnid linking and miiverse:
 ## Form (easier for your eyes)
@@ -45,6 +46,9 @@ GET Request:
 # Body (what is sent to pretendo)
 
 Headers:
+
+GET REQUEST
+
 ```
 
 Host: account.pretendo.cc
@@ -98,79 +102,80 @@ Example Url: https://104.25.1.76/v1/api/admin/mapped_ids?input_type=user_id&outp
 * https://104.25.2.76:443/ac//
 
 Structure:
+```
 104.25.2.76:443
   /ac/
       /
-
+```
 
 Structure:
+```
 104.25.1.76:443
   /ac/
       /
-
+```
 ## Other stuff such as pnid linking and miiverse:
 Structure:
+```
   104.25.2.76:443/
   
-```
+    /v1/
   
-  /v1/
-  
-    /api/
+      /api/
     
-        /admin/ (Linking in general)
+          /admin/ (Linking in general)
           
-          mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
+              mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
         
-        /oauth20/
+          /oauth20/
         
-            /access_token/ (Generated when trying to link pnid)
+               /access_token/ (Generated when trying to link pnid)
             
-                /generate
+                   /generate
                 
-        /people/ (Selecting Mii from your 3ds or stored on the server)
+          /people/ (Selecting Mii from your 3ds or stored on the server)
             
-            /@me/
+                /@me/
                 
-                /devices/
+                    /devices/
                     
-                    /@current/
+                        /@current/
                         
-                        /attributes
+                            /attributes
                 
-                /profile
+                       /profile
 
 ```
 
-```
 Structure:
+```
   104.25.1.76:443/
   
-  /v1/
+    /v1/
   
-    /api/
+      /api/
     
-        /admin/ (Linking in general)
+          /admin/ (Linking in general)
           
-          mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
+              mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
         
-        /oauth20/
+          /oauth20/
         
-            /access_token/ (Generated when trying to link pnid)
+               /access_token/ (Generated when trying to link pnid)
             
-                /generate
+                   /generate
                 
-        /people/ (Selecting Mii from your 3ds or stored on the server)
+          /people/ (Selecting Mii from your 3ds or stored on the server)
             
-            /@me/
+                /@me/
                 
-                /devices/
+                    /devices/
                     
-                    /@current/
+                        /@current/
                         
-                        /attributes
+                            /attributes
                 
-                /profile
+                       /profile
 
 ```
 
