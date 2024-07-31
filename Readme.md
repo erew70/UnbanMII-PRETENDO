@@ -4,6 +4,7 @@ you are blacklisted much differently on pretendo, if you ever tried using a diff
 
 # what is blacklisted on their end
 Online Play: (Matchmaking)
+
 bssid
 
 csnum
