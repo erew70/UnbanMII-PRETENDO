@@ -220,9 +220,13 @@ The only question i have for pretendo is how do you know if these are valid? Reg
 # SO WHAT??!?!!? INFO ISNT GONNA TELL ME HOW TO UNBAN IT?!?!?!
 Lmao just rewrite everything using charles proxy and replace your values with the new ones. If your using pablos citra use proxifier to get it to use your proxy and turn off access control in charles, if you havent already you can now install pretendo with luma3ds patches and enable these modules:
 
+View --> Debugging --> Toggle LLE Service modules
+
 * Online play: FRD
 
 * PNID Linking: FRD, SSL, NIM, ACT, BOSS, CECD, DLP (HTTP causes issues so dont enable it)
+
+Or for citra if you have donor 3ds your better off just ripping your lfcs_b, si_a, and ctcert.bin from your donor and using that
 
 ## SHIT I ACCIDENtLY lINKED NNID BEFORE PNID AND NOW I GET ERRORS WHEN LINKING PNID
 
