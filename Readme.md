@@ -24,7 +24,7 @@ you are blacklisted much differently on pretendo, if you ever tried using a diff
 
 POST REQUEST
 ```
-action=TE9HSU4%2A&apinfo=INSERTAPINFOHERE&bssid=INSERTBSSIDHERE&csnum=INSERTCSNUMHERE&devname=INSERTDEVNAMEHERE&devtime=INSERTDEVTIMEHERE&fcdcert=INSERTFCDCERTHERE&fpdver=INSERTFPDVERHERE&gamecd=INSERTGAMECDHERE&gameid=INSERTGAMEIDHERE&gamever=INSERTGAMEVERHERE&ingamesn=&lang=INSERTLANGHERE&macadr=INSERTMACADR&makercd=INSERTMAKERCDHERE&mediatype=INSERTMEDIATYPEHERE&region=INSERTREGIONHERE&sdkver=INSERTSDKVERHERE&servertype=INSERTSERVERTYPEHERE&titleid=INSERTTITLEIDHERE&uidhmac=INSERTUIDHMACHERE&unitcd=INSERTUNITCDHERE&userid=INSERTUSERIDHERE
+action=TE9HSU4%2A&apinfo=INSERT_APINFO_HERE&bssid=INSERT_BSSID_HERE&csnum=INSERT_CSNUM_HERE&devname=INSERT_DEVNAME_HERE&devtime=INSERT_DEVTIME_HERE&fcdcert=INSERT_FCDCERT_HERE&fpdver=INSERT_FPDVER_HERE&gamecd=INSERT_GAMECD_HERE&gameid=INSERT_GAMEID_HERE&gamever=INSERT_GAMEVER_HERE&ingamesn=&lang=INSERT_LANGHERE_&macadr=INSERT_MACADR_HERE&makercd=INSERT_MAKERCD_HERE&mediatype=INSERT_MEDIATYPE_HERE&region=INSERT_REGION_HERE&sdkver=INSERT_SDKVER_HERE&servertype=INSERT_SERVERTYPE_HERE&titleid=INSERT_TITLEID_HERE&uidhmac=INSERT_UIDHMAC_HERE&unitcd=INSERT_UNITCD_HERE&userid=INSERT_USERID_HERE
 ```
 
 ## Other stuff such as pnid linking and miiverse:
@@ -53,45 +53,45 @@ GET REQUEST
 
 Host: account.pretendo.cc
 
-X-Nintendo-Platform-ID: INSERTPLATFORMIDHERE (Example: 0)
+X-Nintendo-Platform-ID: INSERT_PLATFORMID_HERE (Example: 0)
 
-X-Nintendo-Device-Type: INSERTDEVICETYPEHERE (Example: 2)
+X-Nintendo-Device-Type: INSERT_DEVICETYPE_HERE (Example: 2)
 
-X-Nintendo-Device-ID: INSERTDEVICEIDHERE 
+X-Nintendo-Device-ID: INSERT_DEVICEID_HERE 
 
-X-Nintendo-Serial-Number: INSERTSERIALNUMBERHERE
+X-Nintendo-Serial-Number: INSERT_SERIALNUMBER_HERE
 
-X-Nintendo-System-Version: INSERTSYSVERSIONHERE (Example: 0320)
+X-Nintendo-System-Version: INSERT_SYSVERSION_HERE (Example: 0320)
 
-X-Nintendo-Region: INSERTREGIONHERE (Example: 2)
+X-Nintendo-Region: INSERT_REGION_HERE (Example: 2)
 
-X-Nintendo-Country: INSERTCOUNTRYHERE (Example: US)
+X-Nintendo-Country: INSERT_COUNTRY_HERE (Example: US)
 
 Accept-Language: en
 
-X-Nintendo-Client-ID: INSERTCLIENTIDHERE
+X-Nintendo-Client-ID: INSERT_CLIENTID_HERE
 
-X-Nintendo-Client-Secret: INSERTCLIENTSECRETHERE
+X-Nintendo-Client-Secret: INSERT_CLIENTSECRET_HERE
 
 Accept: */*" 
 
-X-Nintendo-API-Version: INSERTAPIVERHERE (Example: 0100) 
+X-Nintendo-API-Version: INSERT_APIVER_HERE (Example: 0100) 
 
-X-Nintendo-FPD-Version: INSERT FPDVER HERE (Example: 0000)
+X-Nintendo-FPD-Version: INSERT_FPDVER_HERE (Example: 0000)
 
-X-Nintendo-Environment: INSERTENVHERE (Example: L1)
+X-Nintendo-Environment: INSERT_ENV_HERE (Example: L1)
 
-X-Nintendo-Title-ID: INSERTTITLEIDHERE (Example: 000400100002C000)
+X-Nintendo-Title-ID: INSERT_TITLEID_HERE (Example: 000400100002C000)
 
-X-Nintendo-Unique-ID: INSERTUNIQUEIDHERE
+X-Nintendo-Unique-ID: INSERT_UNIQUEID_HERE
 
-X-Nintendo-Application-Version:INSERTAPPVERSIONHERE (Example: 0003)
+X-Nintendo-Application-Version:INSERT_APPVERSION_HERE (Example: 0003)
 
-X-Nintendo-Device-Model: INSERTDEVICEMODELHERE (Example: RED)
+X-Nintendo-Device-Model: INSERT_DEVICEMODEL_HERE (Example: RED)
 
-X-Nintendo-Device-Cert: INSERTDEVICECERTHERE 
+X-Nintendo-Device-Cert: INSERT_DEVICECERT_HERE 
 ```
-Example Url: https://104.25.1.76/v1/api/admin/mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
+Example Url: https://104.25.1.76/v1/api/admin/mapped_ids?input_type=user_id&output_type=pid&input=INSERT_INPUT_HERE
 
 
 ## Paths
@@ -125,7 +125,7 @@ Structure:
     
           /admin/ (Linking in general)
           
-              mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
+              mapped_ids?input_type=user_id&output_type=pid&input=INSERT_INPUT_HERE
         
           /oauth20/
         
@@ -133,7 +133,7 @@ Structure:
             
                    /generate
                 
-          /people/
+          /people/ (Your profile settings on your pnid)
             
                 /@me/
                 
@@ -157,7 +157,7 @@ Structure:
     
           /admin/ (Linking in general)
           
-              mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
+              mapped_ids?input_type=user_id&output_type=pid&input=INSERT_INPUT_HERE
         
           /oauth20/
         
@@ -165,7 +165,7 @@ Structure:
             
                    /generate
                 
-          /people/
+          /people/  (Your profile settings on your pnid)
             
                 /@me/
                 
@@ -178,6 +178,24 @@ Structure:
                        /profile
 
 ```
+
+# MISC:
+## Mii selecting
+
+NOTE: standard.tga is encrypted or something in some sorts so i cannot view it :(
+Structure:
+```
+37.19.216.130:443
+   /mii/
+       /INSERT_RANDOM_10_DIGIT_NUMBER_HERE/
+                                          /standard.tga
+
+```
+
+
+
+## Access token
+Check headers it is used the same as anything else
 
 # Error codes:
 002-2999: An error has occured please try again later (Invalid Info) 
