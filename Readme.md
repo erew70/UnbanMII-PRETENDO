@@ -1,6 +1,6 @@
 # How this works
 
-you are blacklisted much differently on pretendo, if you ever tried using a different lfcs_b that doesnt match your 3ds on pretendo, you notice you will get an error. 
+you are blacklisted much differently on pretendo, if you ever tried using a different lfcs_b that doesnt match your 3ds on pretendo, you notice you will get an error. So now you know that bans are handled MUCH differently
 
 # what is blacklisted on their end
 ## Online Play: (Matchmaking)
