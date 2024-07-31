@@ -2,7 +2,35 @@
 
 you are blacklisted much differently on pretendo, if you ever tried using a different lfcs_b that doesnt match your 3ds on pretendo, you notice you will get an error. 
 
+# what is blacklisted on their end
+Online Play: (Matchmaking)
+bssid
 
+csnum
+
+devname
+
+fcdcert
+
+macadr
+
+uidhmac
+
+userid
+
+Other stuff such as pnid linking and miiverse:
+
+X-Nintendo-Device-Cert
+
+X-Nintendo-Unique-ID
+
+X-Nintendo-Client-ID
+
+X-Nintendo-Device-ID
+
+X-Nintendo-Serial-Number
+
+X-Nintendo-Client-Secret
 
 # Error codes:
 002-2999: An error has occured please try again later (Invalid Info) 
