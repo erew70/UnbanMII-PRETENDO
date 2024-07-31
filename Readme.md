@@ -183,6 +183,7 @@ Structure:
 ## Mii selecting
 
 NOTE: standard.tga is encrypted or something in some sorts so i cannot view it :(
+
 Structure:
 ```
 37.19.216.130:443
@@ -195,7 +196,7 @@ Structure:
 
 
 ## Access token
-Check headers it is used the same as anything else
+Check headers for pnid linking its the same thing
 
 # Error codes:
 002-2999: An error has occured please try again later (Invalid Info) 
