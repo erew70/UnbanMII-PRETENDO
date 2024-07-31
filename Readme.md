@@ -45,28 +45,48 @@ GET Request:
 # Body (what is sent to pretendo)
 
 Headers:
+```
 
 Host: account.pretendo.cc
-X-Nintendo-Platform-ID: INSERTPLATFORMIDHERE (Example: 0)
-X-Nintendo-Device-Type: INSERTDEVICETYPEHERE (Example: 2)
-X-Nintendo-Device-ID: INSERTDEVICEIDHERE 
-X-Nintendo-Serial-Number: INSERTSERIALNUMBERHERE
-X-Nintendo-System-Version: INSERTSYSVERSIONHERE (Example: 0320)
-X-Nintendo-Region: INSERTREGIONHERE (Example: 2)
-X-Nintendo-Country: INSERTCOUNTRYHERE (Example: US)
-Accept-Language: en
-X-Nintendo-Client-ID: INSERTCLIENTIDHERE
-X-Nintendo-Client-Secret: INSERTCLIENTSECRETHERE
-Accept: */*" 
-X-Nintendo-API-Version: INSERTAPIVERHERE (Example: 0100) 
-X-Nintendo-FPD-Version: INSERT FPDVER HERE (Example: 0000)
-X-Nintendo-Environment: INSERTENVHERE (Example: L1)
-X-Nintendo-Title-ID: INSERTTITLEIDHERE (Example: 000400100002C000)
-X-Nintendo-Unique-ID: INSERTUNIQUEIDHERE
-X-Nintendo-Application-Version:INSERTAPPVERSIONHERE (Example: 0003)
-X-Nintendo-Device-Model: INSERTDEVICEMODELHERE (Example: RED)
-X-Nintendo-Device-Cert: INSERTDEVICECERTHERE 
 
+X-Nintendo-Platform-ID: INSERTPLATFORMIDHERE (Example: 0)
+
+X-Nintendo-Device-Type: INSERTDEVICETYPEHERE (Example: 2)
+
+X-Nintendo-Device-ID: INSERTDEVICEIDHERE 
+
+X-Nintendo-Serial-Number: INSERTSERIALNUMBERHERE
+
+X-Nintendo-System-Version: INSERTSYSVERSIONHERE (Example: 0320)
+
+X-Nintendo-Region: INSERTREGIONHERE (Example: 2)
+
+X-Nintendo-Country: INSERTCOUNTRYHERE (Example: US)
+
+Accept-Language: en
+
+X-Nintendo-Client-ID: INSERTCLIENTIDHERE
+
+X-Nintendo-Client-Secret: INSERTCLIENTSECRETHERE
+
+Accept: */*" 
+
+X-Nintendo-API-Version: INSERTAPIVERHERE (Example: 0100) 
+
+X-Nintendo-FPD-Version: INSERT FPDVER HERE (Example: 0000)
+
+X-Nintendo-Environment: INSERTENVHERE (Example: L1)
+
+X-Nintendo-Title-ID: INSERTTITLEIDHERE (Example: 000400100002C000)
+
+X-Nintendo-Unique-ID: INSERTUNIQUEIDHERE
+
+X-Nintendo-Application-Version:INSERTAPPVERSIONHERE (Example: 0003)
+
+X-Nintendo-Device-Model: INSERTDEVICEMODELHERE (Example: RED)
+
+X-Nintendo-Device-Cert: INSERTDEVICECERTHERE 
+```
 Example Url: https://104.25.1.76/v1/api/admin/mapped_ids?input_type=user_id&output_type=pid&input=INSERTINPUTHERE
 
 
@@ -91,6 +111,8 @@ Structure:
 ## Other stuff such as pnid linking and miiverse:
 Structure:
   104.25.2.76:443/
+  
+```
   
   /v1/
   
@@ -118,6 +140,9 @@ Structure:
                 
                 /profile
 
+```
+
+```
 Structure:
   104.25.1.76:443/
   
@@ -147,6 +172,7 @@ Structure:
                 
                 /profile
 
+```
 
 # Error codes:
 002-2999: An error has occured please try again later (Invalid Info) 
