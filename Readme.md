@@ -4,10 +4,14 @@ you are blacklisted much differently on pretendo, if you ever tried using a diff
 
 # Welcome to Q and A section!
 Q. Why wont lfcs_b unbanning work?
+
 A. your bssid, csnum, devname, fcdcert, macadr, uidhmac, and userid wont match the lfcs_b you provide, think of it as logging into your account with your password, except this info wont match when checked against your lfcs_b.
 Q. How to unban?
+
 A. Use proxyman or charles to rewrite everything it really isnt that hard
+
 Q. Where to rip info needed for unbanning?
+
 A. You can try ai generated info but i can gurantee you the strings are either too short, invalid, or banned. So its better off you rip info off another 3ds. To rip info you will just have to setup charles and make sure ssl proxying is enabled for *:443 and your good to go. To find these strings, go to 104.25.1.76/ac// or 104.25.2.76/ac// in chls structure and you will find them there :) (use chls rewrite for replacement)
 
 # what is blacklisted on their end
