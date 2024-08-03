@@ -6,6 +6,7 @@ you are blacklisted much differently on pretendo, if you ever tried using a diff
 Q. Why wont lfcs_b unbanning work?
 
 A. your bssid, csnum, devname, fcdcert, macadr, uidhmac, and userid wont match the lfcs_b you provide, think of it as logging into your account with your password, except this info wont match when checked against your lfcs_b.
+
 Q. How to unban?
 
 A. Use proxyman or charles to rewrite everything it really isnt that hard
