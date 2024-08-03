@@ -15,7 +15,9 @@ Q. Where to rip info needed for unbanning?
 
 A. You can try ai generated info but i can gurantee you the strings are either too short, invalid, or banned. So its better off you rip info off another 3ds. To rip info you will just have to setup charles and make sure ssl proxying is enabled for *:443 and your good to go. To find these strings, go to 104.25.1.76/ac// or 104.25.2.76/ac// in chls structure and you will find them there :) (use chls rewrite for replacement)
 
-If you get ssl proxying erros then you probably do not have pretendo installed so you probably dont know what your doing so how about you just leave it alone, alright?
+If you get ssl proxying erros then you probably do not have pretendo installed so you probably dont know what your doing so how about you just leave it alone, alright? 
+
+but if you know what your doing you need to disable ca verification which pretendo patches already does so install pretendo patches lmao
 
 # what is blacklisted on their end
 ## Online Play: (Matchmaking)
