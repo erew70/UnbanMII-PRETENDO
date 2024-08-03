@@ -19,7 +19,7 @@ If you get ssl proxying erros then you probably do not have pretendo installed s
 
 Q. Can i just swap files isnt there some other files to swap?
 
-A. No and you might end up bricking if you repalce ctcert.bin or si_a so dont try that please!
+A. No and you might end up bricking if you repalce ctcert.bin or si_a so dont try that please! (screams stupidy 😵‍💫)
 
 # what is blacklisted on their end
 ## Online Play: (Matchmaking)
