@@ -17,7 +17,9 @@ A. You can try ai generated info but i can gurantee you the strings are either t
 
 If you get ssl proxying erros then you probably do not have pretendo installed so you probably dont know what your doing so how about you just leave it alone, alright? 
 
-but if you know what your doing you need to disable ca verification which pretendo patches already does so install pretendo patches lmao
+Q. Can i just swap files isnt there some other files to swap?
+
+A. No and you might end up bricking if you repalce ctcert.bin or si_a so dont try that please!
 
 # what is blacklisted on their end
 ## Online Play: (Matchmaking)
