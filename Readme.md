@@ -236,6 +236,10 @@ on another note it is probably a good idea to replace all the info instead of ju
 
 The only question i have for pretendo is how do you know if these are valid? Regex? otherwise you guys clearly have a list of all valid info stored on your servers. Because if you dont have these stored on your server or using regex, then you should be able to replace the unique info with random bullshit and get unbanned. Clearly something else is going on because i have tested that and it does not work.
 
+Also on another note i believe your device doesnt actually disconnect until you:
+Close the game (Game servers)
+Restart 3DS (Friend servers etc)
+
 
 
 # So how do i unban myself now???
