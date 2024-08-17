@@ -25,11 +25,10 @@ A. No and you might end up bricking if you repalce ctcert.bin or si_a so dont tr
 ## Online Play: (Matchmaking)
 ### Form (Easier for your eyes):
 
-* bssid
 
 * csnum
 
-* devname
+* devname (maybe)
 
 * fcdcert
 
@@ -220,7 +219,7 @@ Check headers for pnid linking its the same thing
 # Error codes:
 002-2999: An error has occured please try again later (Invalid Info) 
 
-002-0101: High traffic volume error (Invalid Info)
+002-0101: High traffic volume error (Invalid Info or mismatched secureinfo_a and lfcs_b data)
 
 002-0121: Banned (Valid info but blacklisted, i have tried generating one before and got this error before)
 
