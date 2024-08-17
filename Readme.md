@@ -5,7 +5,7 @@ you are blacklisted much differently on pretendo, if you ever tried using a diff
 # Welcome to Q and A section!
 Q. Why wont lfcs_b unbanning work?
 
-A. your bssid, csnum, devname, fcdcert, macadr, uidhmac, and userid wont match the lfcs_b you provide, think of it as logging into your account with your password, except this info wont match when checked against your lfcs_b.
+A. your fcdcert wont match the rest of the info you provide, think of it as logging into your account with your password, except it wont let you in because of a new ip for example.
 
 Q. How to unban?
 
@@ -26,17 +26,17 @@ A. No and you might end up bricking if you repalce ctcert.bin or si_a so dont tr
 ### Form (Easier for your eyes):
 
 
-* csnum
+* csnum (may be used for whitelisting for beta servers but im not entirely sure)
 
 * devname (maybe)
 
-* fcdcert
+* fcdcert (this is extracted from your lfcs_b, this is usually what only nintendo would blacklist)
 
 * macadr
 
-* uidhmac
+* uidhmac (account unique and not console unique, this is actually for beta server whitelisting))
 
-* userid
+* userid (also account unique and for beta server whitelisting)
 
 ## Body (this is what your 3ds sends to pretendo)
 
