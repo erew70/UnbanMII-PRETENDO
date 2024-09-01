@@ -230,6 +230,8 @@ If you dont care about pnid linking or miiverse and want to play online on your 
 
 To generate a new lfcs_b, increment each byte by 1 to 6/9, then at offset 0x100 make sure to only increment bytes that arent zero! (make sure all bytes are incremented the same amount of times!) By the way, this doesnt work on hardware due to signatures but it does work for citra!
 
+You can also increment the serial in your secureinfo_a and ctcert.bin. I would also clear your account data too, search for "account" file in citra root, you should be able to find it as the filename as "account" with no extensions, delete everything in the 2 folder to clear it all.
+
 it is probably a good idea to replace all the info instead of just the cert adn uniqueid and stuff because it will see that two different models will be using the same info (this is the disadvantage of generating random strings because you wont know model, country, and other stuff)
 
 
