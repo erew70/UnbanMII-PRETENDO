@@ -26,7 +26,7 @@ A. No and you might end up bricking if you repalce ctcert.bin or si_a so dont tr
 ### Form (Easier for your eyes):
 
 
-* csnum (may be used for whitelisting for beta servers but im not entirely sure)
+* csnum (main culprit)
 
 * devname (maybe)
 
@@ -228,12 +228,11 @@ No error: Yay your donor info or generated info worked, you are now successfully
 # Notes
 If you dont care about pnid linking or miiverse and want to play online on your banned 3ds, ignore the X-Nintendo-Blah-Blah stuff as that is only needed for pnid linking and miiverse
 
-And yes the best way to generate unique info like this is inputting strings like those into ai and asking it to generate simillar ones to that or using scripts like python. There is no way to automate testing if its banned or not so your just gonna have to keep sifting through invalid and banned info till you get a working one.
-Also if your using a generated unique info that isnt banned i would like you to know that somewhere in the world, there is a person who has a 3ds and you just generated their info based off of yours. So if you get their info banned, then their 3ds will be banned also. Same goes if you rip info off of donor 3ds
+To generate a new lfcs_b, increment each byte by 1 to 6/9, then at offset 0x100 make sure to only increment bytes that arent zero! (make sure all bytes are incremented the same amount of times!) By the way, this doesnt work on hardware due to signatures but it does work for citra!
 
-on another note it is probably a good idea to replace all the info instead of just the cert adn uniqueid and stuff because it will see that two different models will be using the same info (this is the disadvantage of generating random strings because you wont know model, country, and other stuff)
+it is probably a good idea to replace all the info instead of just the cert adn uniqueid and stuff because it will see that two different models will be using the same info (this is the disadvantage of generating random strings because you wont know model, country, and other stuff)
 
-The only question i have for pretendo is how do you know if these are valid? Regex? otherwise you guys clearly have a list of all valid info stored on your servers. Because if you dont have these stored on your server or using regex, then you should be able to replace the unique info with random bullshit and get unbanned. Clearly something else is going on because i have tested that and it does not work.
+
 
 Also on another note i believe your device doesnt actually disconnect until you:
 Close the game (Game servers)
